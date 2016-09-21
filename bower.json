@@ -1,0 +1,23 @@
+{
+  "name": "blink-element",
+  "homepage": "https://github.com/vajahath/blink-element",
+  "authors": [
+    "Vajahath Ahmed <vajuoff.1@gmail.com>"
+  ],
+  "description": "Polymer element to blink.",
+  "main": "index.html",
+  "keywords": [
+    "web-componets"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.6.1"
+  }
+}

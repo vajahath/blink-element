@@ -1,0 +1,78 @@
+<!-- blink-element source -->
+
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="blink-element">
+	<template>
+
+		<style>
+		:host {
+			display: block;
+		}
+		
+		.blink {
+			-webkit-animation-name: blink;
+			-moz-animation-name: blink;
+			-o-animation-name: blink;
+			animation-name: blink;
+			-webktit-animation-timing-function: linear;
+			-moz-animation-timing-function: linear;
+			-o-animation-timing-function: linear;
+			animation-timing-function: linear;
+			-webkit-animation-duration: 1s;
+			-moz-animation-duration: 1s;
+			-o-animation-duration: 1s;
+			animation-duration: 1s;
+		}
+		
+		.blink-infinite {
+			-webkit-animation-iteration-count: infinite;
+			-moz-animation-iteration-count: infinite;
+			-o-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+		}
+		
+		.blink-furiously {
+			-webkit-animation-duration: 0.3s;
+			-moz-animation-duration: 0.3s;
+			-o-animation-duration: 0.3s;
+			animation-duration: 0.3s;
+		}
+		
+		@-webkit-keyframes blink {
+			50% {
+				opacity: 0;
+			}
+		}
+		
+		@-moz-keyframes blink {
+			50% {
+				opacity: 0;
+			}
+		}
+		
+		@-o-keyframes blink {
+			50% {
+				opacity: 0;
+			}
+		}
+		
+		@keyframes blink {
+			50% {
+				opacity: 0;
+			}
+		}
+		</style>
+		<div class="blink blink-infinite">
+			<content></content>
+		</div>
+
+	</template>
+
+	<script>
+	Polymer({
+		is: 'blink-element',
+		properties: {}
+	});
+	</script>
+</dom-module>
