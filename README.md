@@ -8,7 +8,7 @@ Install Bower if you don't have : `sudo npm install -g bower`.
 
 ## Install this package
 
-`npm install --save blink-element`
+`bower install --save blink-element`
 
 
 # Usage
@@ -41,6 +41,9 @@ bye..
 
 
 ## Change Log
+
+*1.0.1*
+* Documentation updated.
 
 *1.0.0*
 * Created element.
